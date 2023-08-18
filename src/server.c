@@ -8,7 +8,6 @@ void	ft_handler(int signal, siginfo_t *info, void *context)
 	char	c[2];
 
 	(void)context;
-	
 	if (!str)
 	{
 		str = ft_calloc(1, sizeof(char));
